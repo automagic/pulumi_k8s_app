@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    pulumi.com/autonamed: "true"
+  name: my-pod-cf235b55
+  namespace: default
+spec:
+  containers:
+  - image: nginx:1.14-alpine
+    name: nginx
