@@ -8,7 +8,7 @@ const config = new pulumi.Config();
 
 if (config.get("renderToDirectory")) {
   providerConfig = {
-    renderYamlToDirectory: "yaml",
+    renderYamlToDirectory: config.get("renderToDirectory"),
     ...providerConfig,
   };
 }

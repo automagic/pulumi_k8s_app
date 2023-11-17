@@ -1,2 +1,2 @@
 config:
-  app:renderToDirectory: "true"
+  app:renderToDirectory: "/tmp"
