@@ -1,2 +1,2 @@
 config:
-  app:renderToDirectory: "/tmp"
+  app:renderToDirectory: "/tmp/yaml"
