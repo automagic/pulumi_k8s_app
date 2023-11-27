@@ -14,7 +14,7 @@ if (config.get("renderToDirectory")) {
 
 const k8sProvider = new k8s.Provider("yaml-provider", providerConfig);
 
-const pod = new k8s.core.v1.Pod("my-pod", {
+const pod = new k8s.core.v1.Pod("nginx-pod", {
     spec: {
         containers: [{
             name: "nginx",
